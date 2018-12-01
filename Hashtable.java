@@ -20,7 +20,7 @@ public class Hashtable {
 
     private ArrayList<HashNode> buckets;
     int noOfItems = 0;
-    private final int numBuckets = 1000000;
+    private final int numBuckets = 314527;
 
     public Hashtable(){
         this.buckets = new ArrayList<>(numBuckets);
