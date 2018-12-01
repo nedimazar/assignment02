@@ -55,7 +55,7 @@ public class Hashtable {
 
         while(node != null){
             if (node.key.equals(key)){
-                node.value = value;
+                node.setValue(value);
                 return;
             }
             node = node.next;
